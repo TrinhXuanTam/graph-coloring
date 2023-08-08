@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "T",
+      "label": "Tasmania",
+      "evaluationOrder": 2
+    },
+    {
+      "id": "WA",
+      "label": "Western Australia",
+      "evaluationOrder": 0
+    },
+    {
+      "id": "NSW",
+      "label": "New South Wales",
+      "evaluationOrder": 1
+    },
+    {
+      "id": "SA",
+      "label": "South Australia",
+      "evaluationOrder": 5
+    },
+    {
+      "id": "Q",
+      "label": "Queensland",
+      "evaluationOrder": 4
+    },
+    {
+      "id": "NT",
+      "label": "Northern Territory",
+      "evaluationOrder": 3
+    },
+    {
+      "id": "V",
+      "label": "Victoria",
+      "evaluationOrder": 6
+    }
+  ],
+  "edges": [
+    {
+      "id": "WA -> SA",
+      "source": "WA",
+      "target": "SA"
+    },
+    {
+      "id": "SA -> WA",
+      "source": "SA",
+      "target": "WA"
+    },
+    {
+      "id": "WA -> NT",
+      "source": "WA",
+      "target": "NT"
+    },
+    {
+      "id": "NT -> WA",
+      "source": "NT",
+      "target": "WA"
+    },
+    {
+      "id": "NT -> SA",
+      "source": "NT",
+      "target": "SA"
+    },
+    {
+      "id": "SA -> NT",
+      "source": "SA",
+      "target": "NT"
+    },
+    {
+      "id": "SA -> Q",
+      "source": "SA",
+      "target": "Q"
+    },
+    {
+      "id": "Q -> SA",
+      "source": "Q",
+      "target": "SA"
+    },
+    {
+      "id": "Q -> NT",
+      "source": "Q",
+      "target": "NT"
+    },
+    {
+      "id": "NT -> Q",
+      "source": "NT",
+      "target": "Q"
+    },
+    {
+      "id": "Q -> NSW",
+      "source": "Q",
+      "target": "NSW"
+    },
+    {
+      "id": "NSW -> Q",
+      "source": "NSW",
+      "target": "Q"
+    },
+    {
+      "id": "SA -> V",
+      "source": "SA",
+      "target": "V"
+    },
+    {
+      "id": "V -> SA",
+      "source": "V",
+      "target": "SA"
+    },
+    {
+      "id": "NSW -> V",
+      "source": "NSW",
+      "target": "V"
+    },
+    {
+      "id": "V -> NSW",
+      "source": "V",
+      "target": "NSW"
+    }
+  ]
+}
